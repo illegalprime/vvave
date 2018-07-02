@@ -640,7 +640,7 @@ Maui.ApplicationWindow
                 {
                     id: brainzToggle
                     text: checked ? "Turn OFF" : "Turn ON"
-                    checked: activeBrainz
+                    checked: bae.brainzState()
                     checkable: true
                     onToggled:
                     {
