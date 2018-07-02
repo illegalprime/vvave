@@ -4,3 +4,6 @@
 [submodule "3rdparty/kirigami"]
 	path = 3rdparty/kirigami
 	url = git://anongit.kde.org/kirigami.git
+[submodule "3rdparty/luv"]
+	path = 3rdparty/luv
+	url = https://github.com/Nitrux/luv-icon-theme.git
