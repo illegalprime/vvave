@@ -1,4 +1,4 @@
-var player, timer, timeSpent = [], display = document.getElementById('display');
+var player, timer, timeSpent = [];
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player( 'player', {

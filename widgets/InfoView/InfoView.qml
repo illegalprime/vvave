@@ -54,7 +54,7 @@ Page
                 TextEdit
                 {
                     id: lyricsText
-                    text: currentTrack.lyrics
+                    text: currentTrack.lyrics || ""
                     width: infoRoot.width      // ensure correct width
                     height: implicitHeight
                     readOnly: true

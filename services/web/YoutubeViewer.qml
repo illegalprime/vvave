@@ -42,7 +42,7 @@ Page
 
                 Label
                 {
-                    text : currentYt ? currentYt.title : "YouTube"
+                    text : currentYt && currentYt.title ? currentYt.title : "YouTube"
                     Layout.fillHeight : true
                     Layout.fillWidth : true
                     Layout.alignment : Qt.AlignCenter
