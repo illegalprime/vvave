@@ -110,7 +110,7 @@ SwipeDelegate
 
         Maui.ToolButton
         {
-            iconName: "media-playback-start"
+            iconName: "media-playback.start"
             anchors.verticalCenter: parent.verticalCenter
 
             onClicked:
@@ -237,7 +237,7 @@ SwipeDelegate
                 {
                     id: playBtn
                     anchors.centerIn: parent
-                    iconName: "media-playback-start"
+                    iconName: "media-playback.start"
                     iconColor: labelColor
                     onClicked: play()
                     anim: true

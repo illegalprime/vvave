@@ -79,6 +79,8 @@ int main(int argc, char *argv[])
 
     QFontDatabase::addApplicationFont(":/utils/materialdesignicons-webfont.ttf");
 
+    QIcon::setThemeName("Luv");
+
     QQmlApplicationEngine engine;
 
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated, [&]()

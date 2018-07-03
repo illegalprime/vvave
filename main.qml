@@ -251,7 +251,7 @@ Maui.ApplicationWindow
         Maui.ToolButton
         {
             text: qsTr("Albums")
-            iconName: /*"album"*/ "view-media-album-cover"
+            iconName: "view-media-album"
             iconColor:  accent && currentView === viewsIndex.albums ? babeColor : textColor
             display: pageStack.wideMode ? AbstractButton.TextBesideIcon : AbstractButton.IconOnly
 
@@ -334,7 +334,7 @@ Maui.ApplicationWindow
         {
             id: playIcon
             iconColor: darkTextColor
-            iconName: isPlaying ? "media-playback-pause" : "media-playback-start"
+            iconName: isPlaying ? "media-playback-pause" : "media-playback.start"
             onClicked:
             {
                 if (isPlaying)
@@ -567,6 +567,7 @@ Maui.ApplicationWindow
         Kirigami.Action
         {
             text: qsTr("Spotify")
+            iconName: "spotify-client"
             onTriggered:
             {
                 pageStack.currentIndex = 1
